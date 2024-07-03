@@ -1,0 +1,145 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+/* roboto-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/roboto-v30-latin-600.woff2') format('woff2');
+}
+
+
+:root {
+    --color-primary-light: #2B7FFF;
+    --color-primary-dark: #011C44;
+    --color-button-default: #fff;
+    --color-button-hover: #011C44;
+    --color-text: #000;
+}
+
+body {
+    color: var(--color-primary-dark);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: var(--color-primary-dark);
+}
+
+.hero-title {
+    font-family: 'Play', sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-primary-light);
+}
+
+
+.button {
+    color: var(--color-button-default);
+    background-color: var(--color-primary-light);
+    border: 2px solid var(--color-primary-light);
+    border-radius: 32px;
+    font-weight: 600;
+
+}
+
+.button:hover {
+    color: var(--color-button-hover);
+    background-color: var(--color-button-default);
+}
+
+.header-text {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.information-text {
+    line-height: 1.7;
+}
+
+.information-span {
+    font-weight: 600;
+}
+
+.section-headres {
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.15;
+    color: var(--color-primary-dark);
+}
+
+.section-span {
+    color: var(--color-primary-light);
+}
+
+.link {
+    color: var(--color-primary-dark);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--color-primary-light);
+    font-weight: 700;
+}
+
+.footer-link {
+    color: var(--color-button-default);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: var(--color-primary-light);
+    font-weight: 600;
+}
+
+.addres-link {
+    color: var(--color-button-default);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.2;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.addres-link:hover {
+    color: var(--color-primary-light);
+    font-weight: 600;
+}
+
+.advantages {
+    color: var(--color-text);
+}
+
+
+.copyright {
+    color: #747272;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 1.2;
+    font-style: normal;
+}
